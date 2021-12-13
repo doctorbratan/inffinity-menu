@@ -1,10 +1,21 @@
 body {
     background-color: #333333;
+    padding-bottom: 20px;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'menu-font';
+}
+
+h1 , h2 , h3,  small {
+    font-weight: normal;
+    color: white;
 }
 
 header {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,4 +23,85 @@ header {
 
 #header-logo {
     width: 30%;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+h1 {
+    margin: auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.position {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.adult {
+    width: 70px;
+}
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 22px;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+
+    small {
+        font-size: 11px;
+    } 
+
+    #header-logo {
+        width: 70%;
+    }
+
+    .position  {
+        width: 98%;
+    }
+    
+    .adult {
+        width: 50px;
+    }
+
+    .name {
+        max-width: 63%;
+    }
+    
 }

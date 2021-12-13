@@ -11,12 +11,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Inffinity Lounge</title>
+    <script src="./menu.js" ></script>
+    <script src="./scroll.js" ></script>
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <script src="https://unpkg.com/vue"></script>
     <header>
         <img id="header-logo" src="./img/inffiniti-menu.svg" alt="Inffinity Logo">
     </header>
+    <main id="main">
+        <section v-for="page in menu.pages">
+            <br>
+            <div v-for="block in page.blocks" class="column">
+                <span class="title-span">
+                    <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
+                    <h1>{{block.ru_title}}</h1>
+                </span>
+               <span v-for="position in block.positions" class="column">
+                    <br> 
+                    <span class="position">
+                        <span class="name">
+                            <h2>{{position.ru_name}} <small> &nbsp; {{position.sub_ru_name}}</small> </h2>
+                            <small class="description">{{position.ru_description}}</small>
+                        </span>
+                        <h2 v-if="position.cost">{{position.cost}} {{menu.cost}}</h2>
+                    </span>
+                </span>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
