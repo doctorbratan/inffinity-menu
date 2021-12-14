@@ -8,6 +8,7 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#333333">
     <meta name="msapplication-TileColor" content="#333333">
     <meta name="theme-color" content="#333333">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +20,14 @@
 </head>
 <body>
     <script src="https://unpkg.com/vue"></script>
+    <span id="swipe">
+        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_pegzbow7.json" background="transparent" speed="1"  loop  autoplay></lottie-player>
+    </span>
     <header>
-        <img id="header-logo" src="./img/inffiniti-menu.svg" alt="Inffinity Menu Меню">
+        <lottie-player id="header-logo" src="https://assets10.lottiefiles.com/private_files/lf30_zkinieai.json"  onclick="ScrollToMenu()" background="transparent"   speed="1" loop autoplay></lottie-player>
     </header>
     <aside>
-        <img id="logo" src="./img/Logo-3.svg" alt="Inffinity Logo Логотип Лого">
+        <img id="logo" src="./img/logo.svg" alt="Inffinity Logo Логотип Лого">
     </aside>
     <main id="main">
         <section v-for="page in menu.pages" v-bind:style="page.background">
