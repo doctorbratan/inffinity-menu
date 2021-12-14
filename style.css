@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #333333;
     padding-bottom: 20px;
     -o-user-select: none;
@@ -19,10 +20,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('./backgrounds/starts.svg');
 }
 
 #header-logo {
-    width: 30%;
+    width: 40%;
 }
 
 aside {
@@ -74,7 +76,7 @@ h2 {
 }
 
 .position {
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
