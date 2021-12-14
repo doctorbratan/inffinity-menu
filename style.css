@@ -47,9 +47,9 @@ nav {
 }
 
 #logo {
-    margin-top: 5%;
+    padding-top: 5%;
     width: 30%;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 main {
@@ -116,7 +116,7 @@ h2 {
     }
 
     #logo {
-        width: 70%;
+        width: 90%;
     }
 
     nav {
