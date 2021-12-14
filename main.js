@@ -20,7 +20,7 @@ window.onload = function() {
 }
 
 function ScrollToMenu() {
-    EPPZScrollTo.scrollVerticalToElementById('swipe-place', 0)
+    EPPZScrollTo.scrollVerticalToElementById('logo', 0)
 
 }
 
