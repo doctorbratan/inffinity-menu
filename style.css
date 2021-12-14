@@ -108,7 +108,7 @@ h2 {
 @media screen and (max-width: 1023px) {
 
     header {
-        height: 90vh;
+        padding-bottom: 10vh;
     }
 
     #swipe {
@@ -117,10 +117,6 @@ h2 {
 
     #logo {
         width: 90%;
-    }
-
-    nav {
-        margin-top: 10vh;
     }
 
     h1 {
