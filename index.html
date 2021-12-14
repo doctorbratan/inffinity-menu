@@ -26,9 +26,10 @@
     <header>
         <lottie-player id="header-logo" src="https://assets10.lottiefiles.com/private_files/lf30_zkinieai.json"  onclick="ScrollToMenu()" background="transparent"   speed="1" loop autoplay></lottie-player>
     </header>
-    <aside>
+    <span id="swipe-place"></span>
+    <nav>
         <img id="logo" src="./img/logo.svg" alt="Inffinity Logo Логотип Лого">
-    </aside>
+    </nav>
     <main id="main">
         <section v-for="page in menu.pages" v-bind:style="page.background">
             <br>
