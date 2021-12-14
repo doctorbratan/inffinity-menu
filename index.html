@@ -20,10 +20,13 @@
 <body>
     <script src="https://unpkg.com/vue"></script>
     <header>
-        <img id="header-logo" src="./img/inffiniti-menu.svg" alt="Inffinity Logo">
+        <img id="header-logo" src="./img/inffiniti-menu.svg" alt="Inffinity Menu Меню">
     </header>
+    <aside>
+        <img id="logo" src="./img/Logo-3.svg" alt="Inffinity Logo Логотип Лого">
+    </aside>
     <main id="main">
-        <section v-for="page in menu.pages">
+        <section v-for="page in menu.pages" v-bind:style="page.background">
             <br>
             <div v-for="block in page.blocks" class="column">
                 <span class="title-span">

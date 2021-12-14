@@ -301,7 +301,7 @@ const menu = {
         },
         {
             page: 5,
-            background: "background-image: url('./backgrounds/page-6.svg');",
+            background: "background-image: url('./backgrounds/page-5.svg');",
             blocks:
             [
                 {
@@ -339,7 +339,7 @@ const menu = {
         },
         {
             page: 6,
-            background: "background-image: url('./backgrounds/page-7.svg');",
+            background: "background-image: url('./backgrounds/page-6.svg');",
             blocks:
             [
                 {
@@ -443,7 +443,7 @@ const menu = {
         },
         {
             page: 7,
-            background: "background-image: url('./backgrounds/page-10.svg');",
+            background: "background-image: url('./backgrounds/page-7.svg');",
             blocks: [
                 {
                     adult: true,

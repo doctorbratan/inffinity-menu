@@ -25,12 +25,26 @@ header {
     width: 30%;
 }
 
+aside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 30%;
+}
+
 main {
     width: 100%;
 }
 
 section {
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 h1 {
@@ -76,6 +90,11 @@ h2 {
 }
 
 @media screen and (max-width: 1023px) {
+
+    #logo {
+        width: 50%;
+    }
+
     h1 {
         font-size: 22px;
     }
@@ -87,6 +106,10 @@ h2 {
     small {
         font-size: 11px;
     } 
+
+    section {
+        background-size: cover;
+    }
 
     #header-logo {
         width: 70%;
