@@ -135,6 +135,10 @@ h2 {
         width: 90%;
     }
 
+    .flags {
+        width: 30px;
+    }
+
     h1 {
         font-size: 22px;
     }
