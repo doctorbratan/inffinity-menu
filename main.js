@@ -1,3 +1,9 @@
+let selected_language = "ru";
+const candidate = localStorage.getItem('language');
+if (candidate) {
+    selected_language = candidate
+} 
+
 const swipe = document.getElementById('swipe');
 var scrollBollean = false;
 swipe.style.display =  "none";
@@ -27,6 +33,29 @@ function ScrollToMenu() {
 const component = new Vue({
     el: '#main',
     data: { 
-        menu: menu 
+        menu: menu,
+        language: selected_language
     }
 })
+
+function language(data) {
+
+    localStorage.setItem('language', data)
+    selected_language = data
+    component.language = selected_language
+
+    if (data == "ru") {
+        menu.cost = "ЛЕЙ"
+    }
+
+    if (data == "en") {
+        menu.cost = "MD"
+    }
+
+    if (data == "md") {
+        menu.cost = "LEI"
+    }
+
+}
+
+language(selected_language);

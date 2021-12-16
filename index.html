@@ -23,14 +23,25 @@
     <span id="swipe">
         <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_pegzbow7.json" background="transparent" speed="1"  loop  autoplay></lottie-player>
     </span>
+
     <header>
         <lottie-player id="header-logo" src="https://assets10.lottiefiles.com/private_files/lf30_zkinieai.json"  onclick="ScrollToMenu()" background="transparent"   speed="1" loop autoplay></lottie-player>
     </header>
+
     <nav>
         <img id="logo" src="./img/inffiniti-logo.svg" alt="Inffinity Logo Логотип Лого">
     </nav>
+
+    <span id="languages">
+        <img onclick="language('en')" src="./flags/united-kingdom.png" class="flags" alt="Ангилйский Язык">
+        <img onclick="language('ru')" src="./flags/russia.png" class="flags" alt="Русский Язык">
+        <!-- <img onclick="language('md')" src="./flags/moldova.png" class="flags" alt="Молдавский Язык"> -->
+    </span>
+
     <main id="main">
-        <section v-for="page in menu.pages" v-bind:style="page.background">
+
+        <!-- Русский Язык -->
+        <section v-if=" language == 'ru' " v-for="page in menu.pages" v-bind:style="page.background">
             <br>
             <div v-for="block in page.blocks" class="column">
                 <span class="title-span">
@@ -49,7 +60,51 @@
                 </span>
             </div>
         </section>
+
+        <!-- Молдавский язык -->
+        <section v-if=" language == 'md' " v-for="page in menu.pages" v-bind:style="page.background">
+            <br>
+            <div v-for="block in page.blocks" class="column">
+                <span class="title-span">
+                    <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
+                    <h1>{{block.md_title}}</h1>
+                </span>
+               <span v-for="position in block.positions" class="column">
+                    <br> 
+                    <span class="position">
+                        <span class="name">
+                            <h2>{{position.md_name}} <small> &nbsp; {{position.sub_md_name}}</small> </h2>
+                            <small class="description">{{position.md_description}}</small>
+                        </span>
+                        <h2 v-if="position.cost">{{position.cost}} {{menu.cost}}</h2>
+                    </span>
+                </span>
+            </div>
+        </section>
+
+        <!-- Английский Язык -->
+        <section v-if=" language == 'en' " v-for="page in menu.pages" v-bind:style="page.background">
+            <br>
+            <div v-for="block in page.blocks" class="column">
+                <span class="title-span">
+                    <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
+                    <h1>{{block.en_title}}</h1>
+                </span>
+               <span v-for="position in block.positions" class="column">
+                    <br> 
+                    <span class="position">
+                        <span class="name">
+                            <h2>{{position.en_name}} <small> &nbsp; {{position.sub_en_name}}</small> </h2>
+                            <small class="description">{{position.en_description}}</small>
+                        </span>
+                        <h2 v-if="position.cost">{{position.cost}} {{menu.cost}}</h2>
+                    </span>
+                </span>
+            </div>
+        </section>
+
     </main>
+
     <script src="main.js"></script>
 </body>
 </html>
