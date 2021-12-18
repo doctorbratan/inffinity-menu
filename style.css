@@ -92,6 +92,7 @@ h2 {
 
 
 .column {
+    margin: auto;
     width: 99%;
     display: flex;
     flex-direction: column;

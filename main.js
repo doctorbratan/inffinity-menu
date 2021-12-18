@@ -49,7 +49,7 @@ function language(data) {
     }
 
     if (data == "en") {
-        menu.cost = "MD"
+        menu.cost = "MDL"
     }
 
     if (data == "md") {
