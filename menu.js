@@ -474,15 +474,6 @@ const menu = {
                             ru_description: "( САХАРНЫЙ СИРОП, СПРАЙТ, МЯТО, ЛАЙМ )",
                             cost: 40
                         },
-                        { 
-                            en_name: "RAINBOW",
-                            en_description: "( GRENADINE, ORANGE JUICE, BLUE CURASAO )",
-                            md_name: "",
-                            md_description: "",
-                            ru_name: "РАДУГА",
-                            ru_description: "( ГРЕНАДИН, АПЕЛЬСИНОВЫЙ СОК, БЛЮ КЮРАСАО )",
-                            cost: 40
-                        },
                         {
                             en_name: "BLUE LAGOON",
                             en_description: "( SPRITE, LEMON, LIME, LEMON JUICE, BLUE CURASAO )",
@@ -608,15 +599,6 @@ const menu = {
                             cost: 55
                         },
                         {
-                            en_name: "STRAWBERRY GIN SOUER",
-                            en_description: "( GIN, STRAWBERRY SYRUP, PROTEIN, LEMON JUICE, SUGAR SYRUP )",
-                            md_name: "",
-                            md_description: "",
-                            ru_name: "КЛУБНИЧНЫЙ ДЖИН САУЭР",
-                            ru_description: "( ДЖИН, КЛУБНИЧНЫЙ СИРОП, БЕЛОК, ЛИМОННЫЙ СОК, САХАРНЫЙ СИРОП )",
-                            cost: 55
-                        },
-                        {
                             en_name: "STRAWBERRY DAIKIRI",
                             en_description: "( RUM, STRAWBERRY SYRUP, LIME JUICE )",
                             md_name: "",
@@ -667,15 +649,6 @@ const menu = {
                             ru_name: "МАТРИЦА",
                             ru_description: "( ДЖИН, РОМ, БЛЮ КЮРАСАО , ГРЕНАДИН, СПРАЙТ )",
                             cost: 65
-                        },
-                        {
-                            en_name: "CARIBBEAN WAVES",
-                            en_description: "( RUM, PINEAPPLE JUICE, BLUE CURASAO, CREAM, COCONUT SYRUP )",
-                            md_name: "",
-                            md_description: "",
-                            ru_name: "КАРИБСКИЕ ВОЛНЫ",
-                            ru_description: "( РОМ, АНАНАСОВЫЙ СОК, БЛЮ КЮРАСАО, СЛИВКИ, КОКОСОВЫЙ СИРОП )",
-                            cost: 50
                         },
                         {
                             en_name: "CUBA LIBRE",
