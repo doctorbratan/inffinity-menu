@@ -241,18 +241,6 @@ const menu = {
                             cost: 20
                         },
                         {
-                            en_name: "A GLASS OF JUICE",
-                            md_name: "",
-                            ru_name: "СОК СТАКАН",
-                            cost: 15
-                        },
-                        {
-                            en_name: "JUICE",
-                            md_name: "",
-                            ru_name: "СОК УПАКОВКА",
-                            cost: 45
-                        },
-                        {
                             en_name: "WATER",
                             en_description: "( SPARKLING OM )",
                             md_name: "",
@@ -471,7 +459,7 @@ const menu = {
                             md_name: "",
                             md_description: "",
                             ru_name: "МОХИТО",
-                            ru_description: "( САХАРНЫЙ СИРОП, СПРАЙТ, МЯТО, ЛАЙМ )",
+                            ru_description: "( САХАРНЫЙ СИРОП, СПРАЙТ, МЯТА, ЛАЙМ )",
                             cost: 40
                         },
                         {
@@ -537,12 +525,14 @@ const menu = {
                         },
                         {
                             en_name: "APEROL",
+                            sub_en_name: "[ Syrup + 5 MDL ]",
                             en_description: "( APEROL, PROSECCO, SODOVA, ORANGE )",
                             md_name: "",
                             md_description: "",
                             ru_name: "АПЕРОЛЬ",
+                            sub_ru_name: "[ Сироп + 5 Лей ]",
                             ru_description: "( АПЕРОЛЬ, ПРОСЕККО, СОДОВАЯ, АПЕЛЬСИН )",
-                            cost: 55
+                            cost: 70
                         },
                         {
                             en_name: "BEACH SEX",
@@ -706,32 +696,6 @@ const menu = {
                             md_name: "",
                             ru_name: "СТАРЫЙ МЕЛЬНИК",
                             cost: 30
-                        }
-                    ]
-                },
-                {
-                    en_title: "CUTTING:",
-                    md_title: "",
-                    ru_title: "НАРЕЗКИ:",
-                    positions:
-                    [
-                        {
-                            en_name: "FRUIT",
-                            en_description: "( ORANGE, GRAPEFRUIT, MANDARINE, KIWI, BANANA )",
-                            md_name: "",
-                            md_description: "",
-                            ru_name: "ФРУКТОВАЯ",
-                            ru_description: "( АПЕЛЬСИН, ГРЕЙПФРУТ, МАНДАРИН, КИВИ, БАНАН )",
-                            cost: 120
-                        },
-                        {
-                            en_name: "CHEESE",
-                            en_description: "( BRIE, DORBLU, GAUDA, CHEESE WITH PEPPER AND TOMATO, NUTS, HONEY, GRAPES )",
-                            md_name: "",
-                            md_description: "",
-                            ru_name: "СЫРНАЯ",
-                            ru_description: "( БРИЕ, ДОРБЛЮ, ГАУДА, СЫР С ПЕРЦЕМ И ТОМАТОМ, ОРЕХИ, МЕД, ВИНОГРАД )",
-                            cost: 150
                         }
                     ]
                 }
