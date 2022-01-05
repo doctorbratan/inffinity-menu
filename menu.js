@@ -340,7 +340,7 @@ const menu = {
                             md_description: "",
                             ru_name: "B-B-Q (БАРБЕКЮ)",
                             ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЕЛЛА, КУРИЦА, КОЛБАСКИ КАБАНОС, СОУС BBQ )",
-                            cost: 110
+                            cost: 140
                         },
                         {
                             en_name: "DEZHONSKAYA",
@@ -349,7 +349,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ДЕЖОНСКАЯ",
                             ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, БЕКОН, КУРИЦА, СЛИВОЧНЫЙ СЫР, ФРАНЦУЗСКАЯ ЗЕРНОВАЯ ГОРЧИЦА )",
-                            cost: 120
+                            cost: 150
                         },
                         {
                             en_name: "4 MEAT",
@@ -358,7 +358,7 @@ const menu = {
                             md_description: "",
                             ru_name: "4 МЯСА",
                             ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, СЛАДКИЙ ЛУК, КОПЧЕНАЯ КОЛБАСА, БЕКОН, PROSCIUTTO COTTO, PROSCIUTTO SPECK, СЫРОКОПЧЕНЫЙ-ОКОРОК )",
-                            cost: 120
+                            cost: 150
                         },
                         {
                             en_name: "4 CHEESE",
@@ -367,7 +367,7 @@ const menu = {
                             md_description: "",
                             ru_name: "4 СЫРА",
                             ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, БРИ, СЫР С ПЛЕСЕНЬЮ (GORGONZOLA), ПАРМЕЗАН (PARMIGIANO REGGIANO) )",
-                            cost: 130
+                            cost: 155
                         },
                         {
                             en_name: "CAPRI",
@@ -376,7 +376,7 @@ const menu = {
                             md_description: "",
                             ru_name: "CAPRI",
                             ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, БЕКОН, ЧЕСНОЧНЫЕ БАКЛАЖАНЫ, ГРИБЫ , СЛАДКИЙ ПЕРЕЦ, ПАРМЕЗАН (PARMIGIANO REGGIANO) )",
-                            cost: 110
+                            cost: 140
                         }
                     ]
                 },
