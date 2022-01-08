@@ -53,6 +53,7 @@
         <section v-if=" language == 'ru' " v-for="page in menu.pages" v-bind:style="page.background">
             <br>
             <div v-for="block in page.blocks" class="column">
+                <br>
                 <span class="title-span">
                     <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
                     <h1>{{block.ru_title}}</h1>
@@ -71,7 +72,7 @@
         </section>
 
         <!-- Молдавский язык -->
-        <section v-if=" language == 'md' " v-for="page in menu.pages" v-bind:style="page.background">
+      <!--   <section v-if=" language == 'md' " v-for="page in menu.pages" v-bind:style="page.background">
             <br>
             <div v-for="block in page.blocks" class="column">
                 <span class="title-span">
@@ -89,12 +90,13 @@
                     </span>
                 </span>
             </div>
-        </section>
+        </section> -->
 
         <!-- Английский Язык -->
         <section v-if=" language == 'en' " v-for="page in menu.pages" v-bind:style="page.background">
             <br>
             <div v-for="block in page.blocks" class="column">
+                <br>
                 <span class="title-span">
                     <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
                     <h1>{{block.en_title}}</h1>
