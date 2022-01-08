@@ -334,6 +334,27 @@ const menu = {
                     positions:
                     [
                         {
+                            en_name: "PEPERONI",
+                            en_description: "( ITALIAN  PASSENGER, TOMATO SAUCE, MOZZARELLA, PEPERONI )",
+                            ru_name: "PEPERONI",
+                            ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, ПЕПЕРОНИ (ОСТРЫЕ) )",
+                            cost: 135
+                        },
+                        {
+                            en_name: "POLLO",
+                            en_description: "( ITALIAN PASSENGER, TOMATO SAUCE, MOZZARELLA, CHICKEN, MUSHROOMS )",
+                            ru_name: "POLLO",
+                            ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, КУРИЦА, ГРИБЫ )",
+                            cost: 130
+                        },
+                        {
+                            en_name: "PROSCIUTTO COTTO",
+                            en_description: "( ITALIAN  PASSENGER, TOMATO SAUCE, MOZZARELLA, PEPERONI (SPICY) )",
+                            ru_name: "PROSCIUTTO COTTO",
+                            ru_description: "( ИТАЛЬЯНСКОЕ ВОЗДУШНОЕ ТЕСТО, СОУС ИЗ ТОМАТОВ, МОЦАРЭЛЛА, PROSCIUTTO COTTO, ГРИБЫ, МАСЛИНЫ )",
+                            cost: 130
+                        },
+                        {
                             en_name: "B-B-Q",
                             en_description: "( ITALIAN  PASSENGER, TOMATO SAUCE, MOZZARELLA, CHICKEN, KABANO SAUSAGE, SHARBACK SAUCE )",
                             md_name: "",
