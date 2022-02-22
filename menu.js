@@ -430,7 +430,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ЗЕЛЁНЫЙ ЦИТРУС",
                             ru_description: "( АПЕЛЬСИНОВЫЙ СОК, АНАНАСОВЫЙ СОК, СОК ЛИМОНА, БЛЮ КЮРАСАО )",
-                            cost: 40
+                            cost: 50
                         },
                         {
                             en_name: "BERRY MIX",
@@ -439,7 +439,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ЯГОДНЫЙ МИКС",
                             ru_description: "( ЯГОДНЫЙ СОК, КЛУБНИЧНЫЙ СИРОП, ГРЕНАДИН, СОК ЛИМОНА, ЯГОДЫ )",
-                            cost: 40
+                            cost: 50
                         },
                         {
                             en_name: "FRESH LEMON",
@@ -448,7 +448,7 @@ const menu = {
                             md_description: "",
                             ru_name: "СВЕЖИЙ ЛИМОН",
                             ru_description: "( ЛИМОННЫЙ СОК, АПЕЛЬСИНОВЫЙ СОК, ЛИМОН, СОДОВАЯ, САХАРНЫЙ СИРОП )",
-                            cost: 35
+                            cost: 45
                         },
                         {
                             en_name: "ORANGE SUNSET",
@@ -457,7 +457,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ОРАНЖЕВЫЙ ЗАКАТ",
                             ru_description: "( ЛИМОННЫЙ СОК, АПЕЛЬСИНОВЫЙ СОК, АПЕЛЬСИН, СОДОВАЯ, САХАРНЫЙ СИРОП )",
-                            cost: 35
+                            cost: 50
                         }
                     ]
                 }
@@ -481,7 +481,7 @@ const menu = {
                             md_description: "",
                             ru_name: "МОХИТО",
                             ru_description: "( САХАРНЫЙ СИРОП, СПРАЙТ, МЯТА, ЛАЙМ )",
-                            cost: 40
+                            cost: 45
                         },
                         {
                             en_name: "BLUE LAGOON",
@@ -490,7 +490,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ГОЛУБАЯ ЛАГУНА",
                             ru_description: "( СПРАЙТ, ЛИМОН, ЛАЙМ, ЛИМОННЫЙ СОК, БЛЮ КЮРАСАО )",
-                            cost: 35
+                            cost: 45
                         },
                         {
                             en_name: "CALM",
@@ -499,7 +499,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ШТИЛЬ",
                             ru_description: "( КЛЮКВЕННЫЙ СОК, АНАНАСОВЫЙ СОК, СПРАЙТ, БЛЮ КЮРАСАО )",
-                            cost: 35
+                            cost: 45
                         },
                         {
                             en_name: "HONEYMOON",
@@ -508,7 +508,7 @@ const menu = {
                             md_description: "",
                             ru_name: "МЕДОВЫЙ МЕСЯЦ",
                             ru_description: "( ЯБЛОЧНЫЙ СОК, АПЕЛЬСИНОВЫЙ СОК, КЛУБНИЧНЫЙ СОК )",
-                            cost: 35
+                            cost: 45
                         }
                     ]
                 }
@@ -533,7 +533,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ТЕКИЛА САНРАЙЗ",
                             ru_description: "( ГРЕНАДИН, АПЕЛЬСИНОВЫЙ СОК, ТЕКИЛА )",
-                            cost: 55
+                            cost: 60
                         },
                         {
                             en_name: "BLUE LAGOON",
@@ -542,7 +542,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ГОЛУБАЯ ЛАГУНА",
                             ru_description: "( ВОДКА, БЛЮ КЮРАСАО, ЛИМОННЫЙ СОК, СПРАЙТ )",
-                            cost: 50
+                            cost: 60
                         },
                         {
                             en_name: "APEROL",
@@ -562,7 +562,7 @@ const menu = {
                             md_description: "",
                             ru_name: "СЕКС ЗА ПЛЯЖЕМ",
                             ru_description: "( ВОДКА, ПЕРСИКОВЫЙ ЛИКЕР, КЛЮКВЕННЫЙ СОК, АНАНАСОВЫЙ СОК )",
-                            cost: 55
+                            cost: 65
                         },
                         {
                             en_name: "MOJITO",
@@ -571,7 +571,7 @@ const menu = {
                             md_description: "",
                             ru_name: "МОХИТО",
                             ru_description: "( РОМ, САХАРНЫЙ СИРОП, СПРАЙТ, МЯТА, ЛАЙМ )",
-                            cost: 50
+                            cost: 60
                         },
                         {
                             en_name: "RAPHAELLO",
@@ -580,7 +580,7 @@ const menu = {
                             md_description: "",
                             ru_name: "РАФАЭЛЛО",
                             ru_description: "( БЕЙЛИС, КОКОСОВЫЙ СИРОП, МОЛОКО, ВАНИЛЬНЫЙ СИРОП, КОКОСОВАЯ СТРУЖКА )",
-                            cost: 60
+                            cost: 70
                         },
                         {
                             en_name: "DAIQUIRI",
@@ -589,7 +589,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ДАЙКИРИ",
                             ru_description: "( РОМ, САХАРНЫЙ СИРОП, СОК ЛАЙМА )",
-                            cost: 50
+                            cost: 55
                         },
                         {
                             en_name: "LONG ISLAND ICE TEA",
@@ -607,7 +607,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ЯБЛОЧНЫЙ МАРТИНИ",
                             ru_description: "( МАРТИНИ, ЯБЛОЧНЫЙ СОК, СПРАЙТ )",
-                            cost: 55
+                            cost: 60
                         },
                         {
                             en_name: "STRAWBERRY DAIKIRI",
@@ -616,7 +616,7 @@ const menu = {
                             md_description: "",
                             ru_name: "КЛУБНИЧНЫЙ ДАЙКИРИ",
                             ru_description: "( РОМ, КЛУБНИЧНЫЙ СИРОП, СОК ЛАЙМА )",
-                            cost: 50
+                            cost: 65
                         },
                         {
                             en_name: "MARGARITA",
@@ -625,14 +625,14 @@ const menu = {
                             md_description: "",
                             ru_name: "МАРГАРИТА",
                             ru_description: "( ТЕКИЛА, ТРИПЛ СЕК, САХАРНЫЙ СИРОП, СОК ЛАЙМА, СОЛЬ )",
-                            cost: 55
+                            cost: 65
                         },
                         {
                             md_name: "",
                             md_description: "",
                             ru_name: "ВОДКА ЭНЕРГЕТИК",
                             ru_description: "( ВОДКА, ЭНЕРГЕТИК, ЛИМОН )",
-                            cost: 55
+                            cost: 65
                         },
                         {
                             en_name: "COSMOPOLITAN",
@@ -641,7 +641,7 @@ const menu = {
                             md_description: "",
                             ru_name: "КОСМОПОЛИТЕН",
                             ru_description: "( ЦИТРУСОВАЯ ВОДКА, ТРИПЛ СЕК, КЛЮКВЕННЫЙ СОК, СОК ЛАЙМА )",
-                            cost: 50
+                            cost: 65
                         },
                         {
                             en_name: "GIN AND TONIC",
@@ -650,7 +650,7 @@ const menu = {
                             md_description: "",
                             ru_name: "ДЖИН-ТОНИК",
                             ru_description: "( ДЖИН-ТОНИК, ЛАЙМ )",
-                            cost: 55
+                            cost: 65
                         },
                         {
                             en_name: "MATRIX",
@@ -659,7 +659,7 @@ const menu = {
                             md_description: "",
                             ru_name: "МАТРИЦА",
                             ru_description: "( ДЖИН, РОМ, БЛЮ КЮРАСАО , ГРЕНАДИН, СПРАЙТ )",
-                            cost: 65
+                            cost: 70
                         },
                         {
                             en_name: "CUBA LIBRE",
@@ -668,7 +668,7 @@ const menu = {
                             md_description: "",
                             ru_name: "КУБА ЛИБРЕ",
                             ru_description: "( РОМ, КОЛА, ЛАЙМ )",
-                            cost: 55
+                            cost: 65
                         }
                     ]
                 }
