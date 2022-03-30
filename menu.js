@@ -131,7 +131,7 @@ const menu = {
                             en_name: "LATTE",
                             md_name: "",
                             ru_name: "ЛАТТЕ",
-                            cost: 25
+                            cost: 30
                         },
                         {
                             en_name: "HOT CHOCOLATE",
